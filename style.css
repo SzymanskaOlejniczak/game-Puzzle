@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: sienna;
+  width: 475vw;
+  height: 475vh;
+}
+
+#game-board {
+  width: 1425px;
+  height: 1425px;
+  position: relative;
+}
+
+.tile {
+  position: absolute;
+  border: 1px solid saddlebrown;
+  height: 475px;
+  width: 475px;
+  color: transparent;
+  font-size: 30px;
+  transition: top 0.2s linear, left 0.2s linear;
+  background: url(./img/dog.jpg);
+  cursor: pointer;
+}
+
+.tile:last-of-type {
+  background: none;
+  border: none;
+}
