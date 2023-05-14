@@ -15,8 +15,8 @@ body {
 }
 
 #game-board {
-  width: 1425px;
-  height: 1425px;
+  width: auto;
+  height: auto;
   position: relative;
 }
 
