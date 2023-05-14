@@ -13,11 +13,24 @@ body {
   font-size: 100px;
 
 }
-
+#game-board {
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+@media screen and (min-width: 1200px) {
 #game-board {
   width: auto;
   height: auto;
   position: relative;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #game-board {
+    width: auto;
+    height: auto;
+    position: relative;
+}
 }
 
 .tile {
